@@ -14,6 +14,7 @@
 		A098974625F35FFD00BFA25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A098974425F35FFD00BFA25F /* LaunchScreen.storyboard */; };
 		A098975125F35FFE00BFA25F /* counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098975025F35FFE00BFA25F /* counterTests.swift */; };
 		A098975C25F35FFE00BFA25F /* counterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098975B25F35FFE00BFA25F /* counterUITests.swift */; };
+		A098977F25F37FD700BFA25F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098977E25F37FD700BFA25F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A098975725F35FFE00BFA25F /* counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = counterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A098975B25F35FFE00BFA25F /* counterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterUITests.swift; sourceTree = "<group>"; };
 		A098975D25F35FFE00BFA25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A098977E25F37FD700BFA25F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A098973925F35FFC00BFA25F /* AppDelegate.swift */,
 				A098973D25F35FFC00BFA25F /* ContentView.swift */,
+				A098977E25F37FD700BFA25F /* SecondViewController.swift */,
 				A098973F25F35FFD00BFA25F /* Assets.xcassets */,
 				A098974425F35FFD00BFA25F /* LaunchScreen.storyboard */,
 				A098974725F35FFD00BFA25F /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A098977F25F37FD700BFA25F /* SecondViewController.swift in Sources */,
 				A098973A25F35FFC00BFA25F /* AppDelegate.swift in Sources */,
 				A098973E25F35FFC00BFA25F /* ContentView.swift in Sources */,
 			);
